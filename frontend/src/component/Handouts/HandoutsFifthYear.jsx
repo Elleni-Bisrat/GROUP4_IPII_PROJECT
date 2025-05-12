@@ -5,7 +5,6 @@ import { useState } from "react";
 
 const HandoutsFifthYear = () => {
  
-
   const firstSemesterCourses = [
     {
       title: "Senior Research Project Phase 1",
