@@ -3,6 +3,7 @@ import Navigate from "../component/Nav";
 import Footer from "../component/Footer";
 import { Link } from "react-router-dom";
 
+
 const Courses = () => {
   const Books = [
     {
