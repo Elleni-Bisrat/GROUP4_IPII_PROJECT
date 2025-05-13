@@ -6,6 +6,8 @@ if ($conn->connect_error) {
 }
 
 $rootFolder = __DIR__ . "/Bookscollection/handouts/";
+// $rootFolder = "C:/xampp/htdocs/GROUP4_IPII_PROJECT/backend/Bookscollection/handouts/";
+
 
 $yearMap = [
     "firstyear" => "1",

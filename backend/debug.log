@@ -13,3 +13,38 @@ Invalid request data
 2025-05-10 15:02:06 - Received data: 
 2025-05-10 15:02:07 - Received data: 
 2025-05-10 15:02:07 - Received data: 
+2025-05-13 23:32:13 - Received data: Array
+(
+    [course_name] => Discretemaths
+    [chapter] => 1
+)
+
+2025-05-13 23:32:13 - Received data: Array
+(
+    [course_name] => Discretemaths
+    [chapter] => 1
+)
+
+2025-05-13 23:37:30 - Received data: Array
+(
+    [course_name] => Discretemaths
+    [chapter] => 1
+)
+
+2025-05-13 23:38:10 - Received data: 
+2025-05-14 00:14:32 - {"course_name":"Globaltrend","chapter":"1"}
+2025-05-14 00:14:58 - {"course_name":"Globaltrend","chapter":"1"}
+2025-05-14 00:15:58 - {"course_name":"Globaltrend","chapter":"1"}
+2025-05-14 00:18:46 - {"course_name":"Globaltrend","chapter":"1"}
+2025-05-14 00:21:59 - {"course_name":"Globaltrend","chapter":"1"}
+2025-05-14 00:22:41 - {"course_name":"Globaltrend","chapter":"1"}
+2025-05-14 00:26:43 - {"course_name":"Globaltrend","chapter":"1"}
+2025-05-14 00:26:47 - {"course_name":"Globaltrend","chapter":"1"}
+2025-05-14 00:26:48 - {"course_name":"Globaltrend","chapter":"1"}
+2025-05-14 00:26:52 - {"course_name":"Globaltrend","chapter":"1"}
+2025-05-14 00:34:15 - {"course_name":"Globaltrend","chapter":"1"}
+2025-05-14 00:36:12 - {"course_name":"Globaltrend","chapter":"1"}
+2025-05-14 00:37:33 - {"course_name":"Globaltrend","chapter":"1"}
+2025-05-14 00:40:05 - {"course_name":"Globaltrend","chapter":"1"}
+2025-05-14 00:40:40 - {"course_name":"Globaltrend","chapter":"2"}
+2025-05-14 00:40:44 - {"course_name":"Globaltrend","chapter":"1"}
