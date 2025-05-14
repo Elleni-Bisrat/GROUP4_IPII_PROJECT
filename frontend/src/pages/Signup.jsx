@@ -118,7 +118,7 @@ function Signup() {
               type="text"
               value={user}
               onChange={(e) => handleInput(e, "user")}
-              className="focus:outline-none rounded text-black"
+              className="focus:outline-none rounded text-black indent-2"
             />
             <br />
             <label>Email</label><br />
@@ -126,7 +126,7 @@ function Signup() {
               type="email"
               value={email}
               onChange={(e) => handleInput(e, "email")}
-              className="focus:outline-none rounded text-black"
+              className="focus:outline-none rounded text-black indent-2"
             />
             <br />
             <label>Password</label><br />
@@ -134,7 +134,7 @@ function Signup() {
               type="password"
               value={pass1}
               onChange={(e) => handleInput(e, "pass1")}
-              className="focus:outline-none rounded text-black"
+              className="focus:outline-none rounded text-black indent-2"
             />
             <br />
             <label>Confirm Password</label><br />
@@ -142,7 +142,7 @@ function Signup() {
               type="password"
               value={pass2}
               onChange={(e) => handleInput(e, "pass2")}
-              className="focus:outline-none rounded text-black"
+              className="focus:outline-none rounded text-black indent-2"
             />
             <br /><br />
             <button

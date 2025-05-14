@@ -35,11 +35,75 @@ function About() {
 
         <img src="images/image.png" alt="" className="w-48 rounded-xl" />
       </div>
-       <Footer />
-    <div>
-    </div>
+      <div className="flex align-center justify-center h-20  ">
+        <p className="text-black text-2xl ">
+          WELCOM TO OUR WEBSITE
+        </p>
+      </div>
 
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-8 m-20"> 
+        <div className="group p-8 rounded-2xl hover:bg-gray-100 transition-all duration-300 shadow  ">
+        <div className="flex items-start space-x-6">
+          <div className="bg-green-500 p-4 rounded-xl group-hover:scale-110 transition-transform duration-300"></div>
+          <div>
+            <h3 className="text-2xl font-semibold mb-3 text-gray-900">
+              Access to Handouts
+            </h3>
+            <p className="text-gray-600 leading-relaxed">
+              Students can easily view and download subject-wise handouts
+              uploaded by the admin or instructor. These are organized per
+              course and chapter for quick reference.{" "}
+            </p>
+          </div>
+        </div>
+      </div>
+      <div className="group p-8 rounded-2xl hover:bg-gray-50 transition-all duration-300 shadow ">
+        <div className="flex items-start space-x-6">
+          <div className="bg-green-500 p-4 rounded-xl group-hover:scale-110 transition-transform duration-300"></div>
+          <div>
+            <h3 className="text-2xl font-semibold mb-3 text-gray-900">
+              Books and Study Material Links
+            </h3>
+            <p className="text-gray-600 leading-relaxed">
+              Curated links to textbooks, reference books, and online study
+              resources are available to help students deepen their
+              understanding of the subjects.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div className="group p-8 rounded-2xl hover:bg-gray-50 transition-all duration-300 shadow ">
+        <div className="flex items-start space-x-6">
+          <div className="bg-green-500 p-4 rounded-xl group-hover:scale-110 transition-transform duration-300"></div>
+          <div>
+            <h3 className="text-2xl font-semibold mb-3 text-gray-900">
+              Assignments and Practice Questions
+            </h3>
+            <p className="text-gray-600 leading-relaxed">
+              Assignments for different subjects are uploaded regularly.
+              Students can download them for practice and submission purposes.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div className="group p-8 rounded-2xl hover:bg-gray-50 transition-all duration-300 shadow ">
+        <div className="flex items-start space-x-6">
+          <div className="bg-green-500 p-4 rounded-xl group-hover:scale-110 transition-transform duration-300"></div>
+          <div>
+            <h3 className="text-2xl font-semibold mb-3 text-gray-900">
+              Smart Search Feature
+            </h3>
+            <p className="text-gray-600 leading-relaxed">
+              A powerful search bar allows students to search for specific
+              handouts, books, or assignments across all subjects and semesters
+              in one place.
+            </p>
+          </div>
+        </div>
+      </div>
+      </div>
 
+      <Footer />
     </div>
   );
 }

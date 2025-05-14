@@ -1,4 +1,5 @@
 import React from "react";
+import  Search  from "./Search";
 import { Link } from "react-router-dom";
 
 function Navigate() {
@@ -28,11 +29,7 @@ function Navigate() {
         <Link to="/login" className=" hover:underline">
           Login
         </Link>
-        <input
-          type="text"
-          className="bg-green-400 hover:bg-green-500 w-20 h-6 text-sm text-center rounded-full text-white  focus:outline-none "
-          value="search"
-        />
+        <Search />
       </div>
     </div>
   );
