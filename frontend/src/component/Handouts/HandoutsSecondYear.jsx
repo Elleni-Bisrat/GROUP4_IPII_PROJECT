@@ -51,16 +51,16 @@ const HandoutsSecondYear = () => {
       icon: "🎲",
       chapters: [
         {
-          title: "Chapter 1: Introduction to OOP",
+          title: "Chapter 1: ",
         },
         {
-          title: "Chapter 2: Inehritance",
+          title: "Chapter 2: ",
         },
         {
-          title: "Chapter 3: Polymorphism",
+          title: "Chapter 3: ",
         },
         {
-          title: "Chapter 4: Introduction to OOP",
+          title: "Chapter 4:",
         },
       ],
     },
@@ -69,16 +69,16 @@ const HandoutsSecondYear = () => {
       icon: "📜",
       chapters: [
         {
-          title: "Chapter 1: Introduction to OOP",
+          title: "Chapter 1:",
         },
         {
-          title: "Chapter 2: Inehritance",
+          title: "Chapter 2:",
         },
         {
-          title: "Chapter 3: Polymorphism",
+          title: "Chapter 3:",
         },
         {
-          title: "Chapter 4: Introduction to OOP",
+          title: "Chapter 4:",
         },
       ],
     },
@@ -87,16 +87,16 @@ const HandoutsSecondYear = () => {
       icon: "🔢",
       chapters: [
         {
-          title: "Chapter 1: Introduction to OOP",
+          title: "Chapter 1: ",
         },
         {
-          title: "Chapter 2: Inehritance",
+          title: "Chapter 2:",
         },
         {
-          title: "Chapter 3: Polymorphism",
+          title: "Chapter 3:",
         },
         {
-          title: "Chapter 4: Introduction to OOP",
+          title: "Chapter 4:",
         },
       ],
     },
@@ -126,16 +126,16 @@ const HandoutsSecondYear = () => {
       icon: "🔣",
       chapters: [
         {
-          title: "Chapter 1: Introduction to OOP",
+          title: "Chapter 1: ",
         },
         {
-          title: "Chapter 2: Inehritance",
+          title: "Chapter 2: ",
         },
         {
-          title: "Chapter 3: Polymorphism",
+          title: "Chapter 3: ",
         },
         {
-          title: "Chapter 4: Introduction to OOP",
+          title: "Chapter 4: ",
         },
       ],
     },
@@ -144,16 +144,16 @@ const HandoutsSecondYear = () => {
       icon: "⚙️",
       chapters: [
         {
-          title: "Chapter 1: Introduction to OOP",
+          title: "Chapter 1: ",
         },
         {
-          title: "Chapter 2: Inehritance",
+          title: "Chapter 2: ",
         },
         {
-          title: "Chapter 3: Polymorphism",
+          title: "Chapter 3: ",
         },
         {
-          title: "Chapter 4: Introduction to OOP",
+          title: "Chapter 4: ",
         },
       ],
     },
@@ -162,16 +162,16 @@ const HandoutsSecondYear = () => {
       icon: "📡",
       chapters: [
         {
-          title: "Chapter 1: Introduction to OOP",
+          title: "Chapter 1: ",
         },
         {
-          title: "Chapter 2: Inehritance",
+          title: "Chapter 2: ",
         },
         {
-          title: "Chapter 3: Polymorphism",
+          title: "Chapter 3: ",
         },
         {
-          title: "Chapter 4: Introduction to OOP",
+          title: "Chapter 4: ",
         },
       ],
     },
@@ -180,16 +180,16 @@ const HandoutsSecondYear = () => {
       icon: "🗃️",
       chapters: [
         {
-          title: "Chapter 1: Introduction to OOP",
+          title: "Chapter 1: ",
         },
         {
-          title: "Chapter 2: Inehritance",
+          title: "Chapter 2: ",
         },
         {
-          title: "Chapter 3: Polymorphism",
+          title: "Chapter 3: ",
         },
         {
-          title: "Chapter 4: Introduction to OOP",
+          title: "Chapter 4: ",
         },
       ],
     },
@@ -198,16 +198,16 @@ const HandoutsSecondYear = () => {
       icon: "💰",
       chapters: [
         {
-          title: "Chapter 1: Introduction to OOP",
+          title: "Chapter 1: ",
         },
         {
-          title: "Chapter 2: Inehritance",
+          title: "Chapter 2: ",
         },
         {
-          title: "Chapter 3: Polymorphism",
+          title: "Chapter 3: ",
         },
         {
-          title: "Chapter 4: Introduction to OOP",
+          title: "Chapter 4: ",
         },
       ],
     },
@@ -252,57 +252,6 @@ const HandoutsSecondYear = () => {
     }
   };
 
- 
-
-//  const handleDownload = async (courseTitle, chapterTitle) => {
-//   console.log("Download initiated for:", courseTitle, chapterTitle);
-  
-//   try {
-//     // 1. Show immediate feedback
-//     alert("Starting download...");
-    
-//     // 2. Extract chapter number
-//     const chapterNum = chapterTitle.match(/(\d+)/)?.[1] || null;
-//     console.log("Extracted chapter:", chapterNum);
-    
-//     // 3. Make the request
-//     const response = await fetch("http://localhost/GROUP4_IPII_PROJECT/backend/download_handouts.php", {
-//       method: "POST",
-//       headers: { "Content-Type": "application/json" },
-//       body: JSON.stringify({
-//         course_name: courseTitle.trim(),
-//         chapter: chapterNum
-//       }),
-//     });
-//     console.log("Response status:", response.status);
-    
-//     // 4. Process response
-//     const result = await response.json();
-//     console.log("Server response:", result);
-    
-//     if (!response.ok || result.error) {
-//       throw new Error(result.error || "Download failed");
-//     }
-    
-//     // 5. Force download
-//     const link = document.createElement('a');
-//     link.href = result.download_url;
-//     link.download = result.file_name || "handout.pdf";
-//     link.style.display = 'none';
-//     document.body.appendChild(link);
-//     link.click();
-//     document.body.removeChild(link);
-    
-//     // 6. Fallback
-//     setTimeout(() => {
-//       window.open(result.download_url, '_blank');
-//     }, 500);
-    
-//   } catch (error) {
-//     console.error("Download failed:", error);
-//     alert(`Download error: ${error.message}\nCheck console for details.`);
-//   }
-// };
 
   const CourseCard = ({ course, isExpanded, onToggle }) => {
     return (
