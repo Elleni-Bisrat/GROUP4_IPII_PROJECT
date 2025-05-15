@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 function Navigate() {
   return (
-    <div className="flex justify-between items-center p-2 bg-gradient-to-r from-green-300 to-blue-300  ">
+    <div className="flex justify-between items-center p-2 bg-gradient-to-r from-green-500 to-blue-500  ">
       <div className="flex items-center space-x-2">
         <img
           src="/images/logoo.webp"
@@ -16,21 +16,21 @@ function Navigate() {
       </div>
 
       <div className="flex space-x-6 text-lg ">
-        <Link to="/" className=" hover:underline">
+        <Link to="/" className=" hover:text-black">
           Home
         </Link>
-        <Link to="/about" className=" hover:underline">
+        <Link to="/about" className=" hover:text-black">
           About
         </Link>
-        <Link to="/courses" className=" hover:underline">
+        <Link to="/courses" className=" hover:text-black">
           Courses
         </Link>
-        <Link to="/login" className=" hover:underline">
+        <Link to="/login" className=" hover:text-black">
           Login
         </Link>
         <input
           type="text"
-          className="bg-green-400 hover:bg-green-500 w-20 h-6 text-sm text-center rounded-full text-white  focus:outline-none "
+          className="bg-green-400 hover:bg-green-500 w-20 h-6 text-md text-center rounded-full text-white  focus:outline-none "
           value="search"
         />
       </div>

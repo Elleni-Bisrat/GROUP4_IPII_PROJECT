@@ -19,7 +19,7 @@ function Nav() {
       style={{ backgroundImage: "url('/images/book.png')" }}
     >
        <Navigate />
-      <div className="flex flex-col  justify-center  mt-28 px-4">
+      <div className="flex flex-col  justify-center mt-40 ml-6 px-4">
         <h1 className="text-2xl md:text-6xl font-bold mb-4">
           ALL IN ONE SOFTWARE
           <br />
