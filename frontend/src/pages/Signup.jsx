@@ -102,8 +102,8 @@ function Signup() {
   return (
     <div className="bg-cover bg-center h-screen text-white" style={{ backgroundImage: "url('/images/book.png')" }}>
       <Navigate />
-      <div className="flex m-16 ml-28">
-        <div className="flex justify-center item-center rounded shadow-4xl p-8 bg-[rgb(35,40,32)]">
+      <div className="flex items-center justify-center min-h-[91vh]">
+        <div className="rounded-lg shadow-lg p-10 bg-black/50 backdrop-blur-md ">
           <form onSubmit={handleSubmit}>
             <p className="mb-2 w-44">
               {error ? (
@@ -118,7 +118,7 @@ function Signup() {
               type="text"
               value={user}
               onChange={(e) => handleInput(e, "user")}
-              className="focus:outline-none rounded text-black"
+              className="focus:outline-none rounded text-black w-64 p-2 mb-4"
             />
             <br />
             <label>Email</label><br />
@@ -126,7 +126,7 @@ function Signup() {
               type="email"
               value={email}
               onChange={(e) => handleInput(e, "email")}
-              className="focus:outline-none rounded text-black"
+              className="focus:outline-none rounded text-black w-64 p-2 mb-4"
             />
             <br />
             <label>Password</label><br />
@@ -134,7 +134,7 @@ function Signup() {
               type="password"
               value={pass1}
               onChange={(e) => handleInput(e, "pass1")}
-              className="focus:outline-none rounded text-black"
+              className="focus:outline-none rounded text-black w-64 p-2 mb-4"
             />
             <br />
             <label>Confirm Password</label><br />
@@ -142,18 +142,18 @@ function Signup() {
               type="password"
               value={pass2}
               onChange={(e) => handleInput(e, "pass2")}
-              className="focus:outline-none rounded text-black"
+              className="focus:outline-none rounded text-black w-64 p-2 mb-4"
             />
             <br /><br />
             <button
               type="submit"
-              className="h-8 w-full bg-green-500 rounded hover:bg-green-600 disabled:bg-gray-400"
+              className="h-10 w-64 p-2 bg-green-500 rounded hover:bg-green-900 disabled:bg-gray-400"
               disabled={isLoading}
             >
               {isLoading ? "Processing..." : "Signup"}
             </button>
-            <p className="mt-4 text-sm">Have an account
-              <Link to="/login" className="text-blue-400"> login</Link>
+            <p className="mt-4 pl-8">Have an account
+              <Link to="/login" className="text-blue-400 "> login</Link>
             </p>
           </form>
         </div>
