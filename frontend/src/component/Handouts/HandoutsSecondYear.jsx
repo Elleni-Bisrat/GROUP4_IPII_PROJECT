@@ -1,10 +1,10 @@
-import React from "react";
+import React, { useState } from "react";
 import Navigate from "../Nav";
 import Footer from "../Footer";
-import { useState } from "react";
 
 const HandoutsSecondYear = () => {
   const [expanded, setExpanded] = useState("");
+
   const toggleCourse = (title) => {
     setExpanded(expanded === title ? null : title);
   };
@@ -13,110 +13,32 @@ const HandoutsSecondYear = () => {
     {
       title: "Discretemaths",
       icon: "🧮",
-      chapters: [
-        {
-          title: "Chapter 1",
-        },
-        {
-          title: "Chapter 2",
-        },
-        {
-          title: "Chapter 3",
-        },
-        {
-          title: "Chapter 4",
-        },
-      ],
+      chapters: [{ title: "Chapter 1" }, { title: "Chapter 2" }, { title: "Chapter 3" }, { title: "Chapter 4" }],
     },
     {
       title: "Introduction to Software Engineering",
       icon: "💻",
-      chapters: [
-        {
-          title: "Chapter 1",
-        },
-        {
-          title: "Chapter 2",
-        },
-        {
-          title: "Chapter 3",
-        },
-        {
-          title: "Chapter 4",
-        },
-      ],
+      chapters: [{ title: "Chapter 1" }, { title: "Chapter 2" }, { title: "Chapter 3" }, { title: "Chapter 4" }],
     },
     {
       title: "Probability and statistics ",
       icon: "🎲",
-      chapters: [
-        {
-          title: "Chapter 1: ",
-        },
-        {
-          title: "Chapter 2: ",
-        },
-        {
-          title: "Chapter 3: ",
-        },
-        {
-          title: "Chapter 4:",
-        },
-      ],
+      chapters: [{ title: "Chapter 1: " }, { title: "Chapter 2: " }, { title: "Chapter 3: " }, { title: "Chapter 4:" }],
     },
     {
       title: "history",
       icon: "📜",
-      chapters: [
-        {
-          title: "Chapter 1:",
-        },
-        {
-          title: "Chapter 2:",
-        },
-        {
-          title: "Chapter 3:",
-        },
-        {
-          title: "Chapter 4:",
-        },
-      ],
+      chapters: [{ title: "Chapter 1:" }, { title: "Chapter 2:" }, { title: "Chapter 3:" }, { title: "Chapter 4:" }],
     },
     {
       title: " fundamentals of programming C++ 1",
       icon: "🔢",
-      chapters: [
-        {
-          title: "Chapter 1: ",
-        },
-        {
-          title: "Chapter 2:",
-        },
-        {
-          title: "Chapter 3:",
-        },
-        {
-          title: "Chapter 4:",
-        },
-      ],
+      chapters: [{ title: "Chapter 1: " }, { title: "Chapter 2:" }, { title: "Chapter 3:" }, { title: "Chapter 4:" }],
     },
     {
       title: "Globaltrend ",
       icon: "🌏",
-      chapters: [
-        {
-          title: "Chapter 1",
-        },
-        {
-          title: "Chapter 2",
-        },
-        {
-          title: "Chapter 3",
-        },
-        {
-          title: "Chapter 4",
-        },
-      ],
+      chapters: [{ title: "Chapter 1" }, { title: "Chapter 2" }, { title: "Chapter 3" }, { title: "Chapter 4" }],
     },
   ];
 
@@ -124,98 +46,32 @@ const HandoutsSecondYear = () => {
     {
       title: "Fundamentals of programming C++ 2",
       icon: "🔣",
-      chapters: [
-        {
-          title: "Chapter 1: ",
-        },
-        {
-          title: "Chapter 2: ",
-        },
-        {
-          title: "Chapter 3: ",
-        },
-        {
-          title: "Chapter 4: ",
-        },
-      ],
+      chapters: [{ title: "Chapter 1: " }, { title: "Chapter 2: " }, { title: "Chapter 3: " }, { title: "Chapter 4: " }],
     },
     {
       title: "Digital logic design",
       icon: "⚙️",
-      chapters: [
-        {
-          title: "Chapter 1: ",
-        },
-        {
-          title: "Chapter 2: ",
-        },
-        {
-          title: "Chapter 3: ",
-        },
-        {
-          title: "Chapter 4: ",
-        },
-      ],
+      chapters: [{ title: "Chapter 1: " }, { title: "Chapter 2: " }, { title: "Chapter 3: " }, { title: "Chapter 4: " }],
     },
     {
       title: " Data communication and computer networks",
       icon: "📡",
-      chapters: [
-        {
-          title: "Chapter 1: ",
-        },
-        {
-          title: "Chapter 2: ",
-        },
-        {
-          title: "Chapter 3: ",
-        },
-        {
-          title: "Chapter 4: ",
-        },
-      ],
+      chapters: [{ title: "Chapter 1: " }, { title: "Chapter 2: " }, { title: "Chapter 3: " }, { title: "Chapter 4: " }],
     },
     {
       title: "Database system",
       icon: "🗃️",
-      chapters: [
-        {
-          title: "Chapter 1: ",
-        },
-        {
-          title: "Chapter 2: ",
-        },
-        {
-          title: "Chapter 3: ",
-        },
-        {
-          title: "Chapter 4: ",
-        },
-      ],
+      chapters: [{ title: "Chapter 1: " }, { title: "Chapter 2: " }, { title: "Chapter 3: " }, { title: "Chapter 4: " }],
     },
     {
       title: "Economics",
       icon: "💰",
-      chapters: [
-        {
-          title: "Chapter 1: ",
-        },
-        {
-          title: "Chapter 2: ",
-        },
-        {
-          title: "Chapter 3: ",
-        },
-        {
-          title: "Chapter 4: ",
-        },
-      ],
+      chapters: [{ title: "Chapter 1: " }, { title: "Chapter 2: " }, { title: "Chapter 3: " }, { title: "Chapter 4: " }],
     },
   ];
 
   const handleDownload = async (courseTitle, chapterTitle) => {
     try {
-      // Extract chapter number more reliably
       const chapterMatch = chapterTitle.match(/(\d+)/);
       const chapterNum = chapterMatch ? chapterMatch[1] : null;
 
@@ -239,7 +95,6 @@ const HandoutsSecondYear = () => {
         throw new Error(result.error || "Failed to download");
       }
 
-      // Create download link
       const link = document.createElement("a");
       link.href = result.download_url;
       link.download = result.file_name || "handout.pdf";
@@ -252,37 +107,33 @@ const HandoutsSecondYear = () => {
     }
   };
 
-
   const CourseCard = ({ course, isExpanded, onToggle }) => {
     return (
       <div className="mb-4">
-        <div className="p-6 bg-white rounded-lg shadow-md">
+        <div className="p-6 bg-white dark:bg-gray-800 rounded-lg shadow-md">
           <div className="flex items-center mb-2">
             <span className="text-2xl mr-3">{course.icon}</span>
             <h2 className="text-xl font-semibold">{course.title}</h2>
           </div>
-          <p className="text-gray-600 mb-4">Course materials and resources</p>
+          <p className="text-gray-600 dark:text-gray-300 mb-4">Course materials and resources</p>
 
-          <div
-            className="bg-gradient-to-r from-green-400 w- pt-4"
-            onClick={onToggle}
-          >
-            <button className="flex items-center text-blue-600 hover:text-blue-800">
+          <div className="bg-gradient-to-r from-green-400 w- pt-4" onClick={onToggle}>
+            <button className="flex items-center text-blue-600 hover:text-blue-800 dark:text-blue-700 dark:hover:text-blue-300">
               View course materials
             </button>
           </div>
         </div>
 
         {isExpanded && (
-          <div className="mt-2 ml-8 p-4 bg-gray-50 rounded-lg">
+          <div className="mt-2 ml-8 p-4 bg-gray-50 dark:bg-gray-700 rounded-lg">
             <h3 className="text-lg font-medium mb-4">Select a chapter:</h3>
             <div className="space-y-3">
               {course.chapters.map((chapter, index) => (
-                <div key={index} className="p-3 bg-white rounded shadow-sm">
+                <div key={index} className="p-3 bg-white dark:bg-gray-800 rounded shadow-sm">
                   <h4 className="font-medium">{chapter.title}</h4>
                   <button
                     onClick={() => handleDownload(course.title, chapter.title)}
-                    className="mt-2 px-3 py-1 bg-gradient-to-r from-blue-400 to-green-300 text-white text-sm rounded hover:bg-blue-600"
+                    className="mt-2 px-3 py-1 bg-gradient-to-r from-blue-700 to-green-300 text-white text-sm rounded hover:bg-blue-600"
                   >
                     📥Download
                   </button>
@@ -296,7 +147,7 @@ const HandoutsSecondYear = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-white to-gray-100">
+    <div className="min-h-screen bg-gradient-to-b from-white to-gray-100 dark:from-gray-900 dark:to-black text-black dark:text-white">
       <Navigate />
       <div className="container mx-auto px-6 py-12">
         <div className="mb-12">

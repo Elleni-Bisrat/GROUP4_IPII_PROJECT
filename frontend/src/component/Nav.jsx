@@ -1,6 +1,7 @@
 import React from "react";
 import  Search  from "./Search";
 import { Link } from "react-router-dom";
+import ThemeToggle from "./ThemeToggle";
 
 function Navigate() {
   return (
@@ -31,7 +32,9 @@ function Navigate() {
         </Link>
       
         <Search />
+            <ThemeToggle />
       </div>
+      
     </div>
   );
 }

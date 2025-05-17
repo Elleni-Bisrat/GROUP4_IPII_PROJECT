@@ -1,4 +1,4 @@
-?php
+<?php
 $conn = new mysqli("localhost", "root", "", "resources");
 
 if ($conn->connect_error) {
@@ -120,4 +120,3 @@ foreach ($allPDFs as $file_path) {
 $stmt->close();
 $conn->close();
 ?>
-
