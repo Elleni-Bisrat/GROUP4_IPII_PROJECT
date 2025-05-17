@@ -5,8 +5,8 @@
 | Name                  | ID             | GitHub Username  | branch-created|
 |-----------------------|----------------|----------------- |---------------|
 | 1.Edlawit Huluwork    |  ETS0412/15    | Edlawit-H        |
-| 2.Eldana Chane        |  ETS0428/15    | Eldana-chane     |
+| 2.Eldana Chane        |  ETS0428/15    | Eldana-chane     |    eldana     |
 | 3.Elleni Bisrat       |  ETS0438/15    | Elleni-Bisrat    |    master     |
 | 4.Elsa Alemayehu      |  ETS0440/15    | Elsa2116         |    Elsa       |
-| 5.Emnet Befkadu       |  ETS0450/15    | Emnet-befikadu   |
-| 6.Etsubdink Gashaw    |  ETS0479/15    | Etsubdink-Gashaw |
+| 5.Emnet Befkadu       |  ETS0450/15    | Emnet19          |    emnet      |
+| 6.Etsubdink Gashaw    |  ETS0479/15    | Etsubdink-Gashaw |    Etsub      |
