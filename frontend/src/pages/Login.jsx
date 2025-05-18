@@ -96,7 +96,7 @@ function Login() {
     >
       <Navigate />
       <div className="flex m-20 ">
-        <div className="flex justify-center item-center rounded shadow-4xl p-10 bg-[rgb(35,40,32)]  ">
+        <div className="flex justify-center item-center rounded shadow-4xl p-10 mt-10 bg-[rgb(35,40,32)]  ">
           <form action="" method="" onSubmit={handleSubmit}>
             <div className="w-44">
               <p className="mb-4">
