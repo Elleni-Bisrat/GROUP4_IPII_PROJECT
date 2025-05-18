@@ -23,10 +23,11 @@ function Nav() {
 
       <div className="relative z-10">
         <Navigate />
-        <div className="flex flex-col justify-center mt-28 px-4">
+        <div className="flex flex-col justify-center ml-2 mt-40  px-10">
           <h1 className="text-2xl md:text-6xl font-bold mb-4 text-white dark:text-white">
             ALL IN ONE SOFTWARE
             <br />
+            
             ENGINEERING COURSES
           </h1>
           <p className="px-2 py-1 rounded-md text-white mb-6">

@@ -2,14 +2,16 @@ import React, { useState } from "react";
 import Navigate from "../Nav";
 import Footer from "../Footer";
 
-const BooksFourthYear = () => {
+
+const BooksFifthYear = () => {
   const firstSemesterCourses = [
-    { title: "Principles of Compiler Design", icon: "🛠️🔤" },
-    { title: "Mobile Computing and Programming", icon: "📱💻" },
-    { title: "Software Design and Architecture", icon: "🏗️🧠" },
-    { title: "Introduction to Artificial Intelligence", icon: "🤖🧠" },
-    { title: "Computer Graphics", icon: "🖼️🧊" },
-    { title: "Integrated Engineering Team Project", icon: "👥🛠️" },
+  { title: "Senior Research Project Phase 1", icon: "🧪📝" },
+  { title: "Software Configuration Management", icon: "🧩⚙️" },
+  { title: "Elective 1", icon: "🧾🎯" },
+  { title: "Computer System Security", icon: "🔐🖥️" },
+  { title: "Software Component Design", icon: "🧱💻" },
+  { title: "Open Source Software Paradigms", icon: "🌐💡" },
+  { title: "Distributed Systems", icon: "🛰️🔗" },
   ];
 
   const secondSemesterCourses = [
@@ -108,5 +110,4 @@ const CourseCard = ({ course }) => {
     </div>
   );
 };
-
-export default BooksFourthYear;
+export default BooksFifthYear;

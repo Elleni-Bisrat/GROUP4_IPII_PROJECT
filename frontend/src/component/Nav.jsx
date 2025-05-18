@@ -18,16 +18,16 @@ function Navigate() {
       </div>
 
       <div className="flex space-x-6 text-lg ">
-        <Link to="/" className=" hover:text-black">
+        <Link to="/" className=" hover:text-white">
           Home
         </Link>
-        <Link to="/about" className=" hover:text-black">
+        <Link to="/about" className=" hover:text-white">
           About
         </Link>
-        <Link to="/courses" className=" hover:text-black">
+        <Link to="/courses" className=" hover:text-white">
           Courses
         </Link>
-        <Link to="/login" className=" hover:text-black">
+        <Link to="/login" className=" hover:text-white">
           Login
         </Link>
       
