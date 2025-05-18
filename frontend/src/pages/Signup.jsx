@@ -103,7 +103,7 @@ function Signup() {
     <div className="bg-cover bg-center h-screen text-white" style={{ backgroundImage: "url('/images/book.png')" }}>
       <Navigate />
       <div className="flex m-16 ml-28">
-        <div className="flex justify-center item-center rounded shadow-4xl p-8 bg-[rgb(35,40,32)]">
+        <div className="flex justify-center item-center rounded shadow-4xl p-8 mt-10 bg-[rgb(35,40,32)]">
           <form onSubmit={handleSubmit}>
             <p className="mb-2 w-44">
               {error ? (
