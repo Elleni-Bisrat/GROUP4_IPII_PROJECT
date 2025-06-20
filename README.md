@@ -52,12 +52,14 @@ Make small commits with clear messages
 Always test responsiveness before pushing updates
 
 ## GROUP MEMBERS:
+### 👥 Project Contributors
 
-| Name                  | ID             | GitHub Username  | branch-created|
-|-----------------------|----------------|----------------- |---------------|
-| 1.Edlawit Huluwork    |  ETS0412/15    | Edlawit-H        |
-| 2.Eldana Chane        |  ETS0428/15    | Eldana-chane     |
-| 3.Elleni Bisrat       |  ETS0438/15    | Elleni-Bisrat    |    master     |
-| 4.Elsa Alemayehu      |  ETS0440/15    | Elsa2116         |    Elsa       |
-| 5.Emnet Befkadu       |  ETS0450/15    | Emnet19          |
-| 6.Etsubdink Gashaw    |  ETS0479/15    | Etsubdink-Gashaw |
+| Name             | ID         | GitHub Username                                          
+| ---------------- | ---------- | -------------------------------------------------------- 
+| Edlawit Huluwork | ETS0412/15 | [@Edlawit-H](https://github.com/Edlawit-H)               
+| Eldana Chane     | ETS0428/15 | [@Eldana-chane](https://github.com/Eldana-chane)         
+| Elleni Bisrat    | ETS0438/15 | [@Elleni-Bisrat](https://github.com/Elleni-Bisrat)       
+| Elsa Alemayehu   | ETS0440/15 | [@Elsa2116](https://github.com/Elsa2116)                 
+| Emnet Befkadu    | ETS0450/15 | [@Emnet19](https://github.com/Emnet19)            
+| Etsubdink Gashaw | ETS0479/15 | [@Etsubdink-Gashaw](https://github.com/Etsubdink-Gashaw) 
+
